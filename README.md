@@ -2,14 +2,14 @@
 
 **Deep Learning-Based Video Content Retrieval with Adaptive Illumination Enhancement**
 
-**Undergraduate Thesis — Northwestern Polytechnical University (NWPU)**  
-School of Mathematics and Statistics  
+**Undergraduate Thesis — Northwestern Polytechnical University (NWPU)**
+School of Mathematics and Statistics
 
-**Author:** Tsend-Ayush Ganbold   
+**Author:** Tsend-Ayush Ganbold
 **Advisor:** Prof. Wang Yong (王勇)
 
-**Recognition:** Best Graduation Thesis Award, School of Mathematics and Statistics, NWPU (2026)  
-**Defense Score:** 95.3 / 100  
+**Recognition:** Best Graduation Thesis Award, School of Mathematics and Statistics, NWPU (2026)
+**Defense Score:** 95.3 / 100
 
 ---
 
@@ -25,6 +25,7 @@ The proposed method, **EnMSRCR (Enhanced Multi-Scale Retinex with Color Restorat
 
 ## Complete Pipeline
 
+```
 Video Frames
 ↓
 EnMSRCR Illumination Enhancement
@@ -34,6 +35,7 @@ ResNet-18 Feature Extraction
 K-means Keyframe Selection
 ↓
 Similarity Retrieval & Evaluation
+```
 
 ---
 
@@ -136,6 +138,7 @@ Evaluated UCF11 categories:
 Additional comparison under normal lighting conditions:
 
 ![PCA visualization under normal lighting](figures/05_pca_normal_visualization.png)
+
 ---
 
 # Experimental Setup
@@ -183,21 +186,24 @@ Additional comparison under normal lighting conditions:
 
 # Repository Structure
 
+```
 enmsrcr-video-retrieval/
-
 ├── README.md
 ├── LICENSE
 │
 ├── figures/
-│ ├── 01_pipeline_architecture.png
-│ ├── 02_enmsrcr_flowchart.png
-│ ├── 03_ablation_results.png
-│ └── 04_pca_visualization.png
+│   ├── 01_pipeline_architecture.png
+│   ├── 02_enmsrcr_flowchart.png
+│   ├── 03_ablation_results.png
+│   ├── 04_pca_visualization.png
+│   └── 05_pca_normal_visualization.png
 │
 ├── code/
-│ └── implementation files
+│   └── implementation files
 │
-└── thesis
+└── thesis/
+    └── Tsend_Ayush_Ganbold_Bachelor_Thesis_EnMSRCR.pdf
+```
 
 ---
 
@@ -213,17 +219,7 @@ Full undergraduate thesis:
 
 If you reference this work:
 
-└── Tsend_Ayush_Ganbold_Bachelor_Thesis_EnMSRCR.pdf
-Tsend-Ayush, G. (2026).
-
-Research on Video Content Retrieval Based on Deep Learning:
-An Empirical Study of MSRCR-Enhanced Keyframe Selection.
-
-Bachelor's Thesis,
-Northwestern Polytechnical University,
-School of Mathematics and Statistics.
-
-Advisor: Prof. Wang Yong.
+> Tsend-Ayush, G. (2026). Research on Video Content Retrieval Based on Deep Learning: An Empirical Study of MSRCR-Enhanced Keyframe Selection. Bachelor's Thesis, Northwestern Polytechnical University, School of Mathematics and Statistics. Advisor: Prof. Wang Yong.
 
 A follow-up manuscript based on this research is currently being prepared.
 
@@ -233,7 +229,7 @@ A follow-up manuscript based on this research is currently being prepared.
 
 **Tsend-Ayush Ganbold**
 
-B.Sc. in Statistics  
+B.Sc. in Statistics
 Northwestern Polytechnical University (NWPU)
 
 Technical interests:
