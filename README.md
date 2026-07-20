@@ -219,12 +219,11 @@ enmsrcr-video-retrieval/
 
 ---
 
-# Thesis Documentation
+## Full Thesis
 
-**Full Undergraduate Thesis**
+The complete undergraduate thesis can be accessed here:
 
-[View Thesis PDF](thesis/Tsend_Ayush_Ganbold_Bachelor_Thesis_EnMSRCR.pdf)
-
+[Bachelor's Thesis (PDF)](Thesis/Tsend_Ayush_Ganbold_Bachelor_Thesis.pdf)
 ---
 
 # Citation
