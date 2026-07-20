@@ -145,7 +145,7 @@ Evaluated UCF11 categories:
 - Diving
 - Tennis Swinging
 
-![PCA Visualization (Low-light)](figures/04_pca_visualization.png)
+![PCA Visualization (Low-light)](figures/04_pca_lowlight_visualization.png)
 
 ### Additional Comparison under Normal Lighting
 
